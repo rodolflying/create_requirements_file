@@ -25,6 +25,8 @@ This helps ensure your dependencies are accurately listed, aiding reproducibilit
     ```
 5.  **Output:** A `requirements.txt` file will be generated or overwritten in the root directory. Check the terminal output for a success message or any warnings about unresolved packages.
 
+![Run script](run%20generate%20reqs.gif)
+
 ## Dependencies
 
 The script itself uses only Python standard library modules (`os`, `sys`, `ast`, `importlib.metadata`). However, its **accuracy depends on having your project's dependencies installed** in the Python environment where you run the script, as it needs to query them for version information.
